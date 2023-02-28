@@ -77,4 +77,3 @@ function! WinMove(key)
     endif
 
 endfunction
-colorscheme jellybeans
