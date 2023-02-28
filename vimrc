@@ -29,6 +29,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'sickill/vim-monokai'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/indentLine'
+Plug 'lifepillar/vim-solarized8'
+Plug 'morhetz/gruvbox'
+Plug 'nanotech/jellybeans.vim'
 
 call plug#end()
 
@@ -74,3 +77,4 @@ function! WinMove(key)
     endif
 
 endfunction
+colorscheme jellybeans
