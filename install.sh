@@ -1,10 +1,11 @@
 #bin/bash
-# install vundle
-git clone https://github.com/hunzo/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# install vim-plug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # install
 cp vimrc ~/.vimrc
-vim -c 'PluginInstall' -c 'qa!'
+vim -c 'PlugInstall' -c 'qa!'
 
 # set theme
 mkdir ~/.vim/colors

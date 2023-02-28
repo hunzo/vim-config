@@ -21,19 +21,16 @@ set rnu
 set paste
 set cursorline
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin()
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/nerdtree'
-Plugin 'sickill/vim-monokai'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'Yggdroot/indentLine'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdtree'
+Plug 'sickill/vim-monokai'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'Yggdroot/indentLine'
 
-call vundle#end()
+call plug#end()
 
 set autoindent
 set smartindent
