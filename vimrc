@@ -77,4 +77,5 @@ function! WinMove(key)
     endif
 
 endfunction
+let g:solarized_termcolors=256
 set background=dark
