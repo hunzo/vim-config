@@ -10,7 +10,7 @@ vim -c 'PlugInstall' -c 'qa!'
 # set theme
 mkdir ~/.vim/colors
 ln -s ~/.vim/bundle/vim-monokai/colors/monokai.vim ~/.vim/colors/monokai.vim
-echo 'colorscheme monokai' >> ~/.vimrc
+echo 'colorscheme solarized8' >> ~/.vimrc
 
 # set bashrc
 echo 'set -o vi' >> ~/.bashrc

@@ -77,3 +77,4 @@ function! WinMove(key)
     endif
 
 endfunction
+set background=dark
